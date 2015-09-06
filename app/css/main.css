@@ -1,6 +1,20 @@
 /* --------- mixins --------- */
 /* --------- variables --------- */
 /* --------- fonts --------- */
+@font-face {
+  font-family: 'pacificoregular';
+  src: url("../fonts/pacifico/pacifico-webfont.eot");
+  src: url("../fonts/pacifico/pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pacifico/pacifico-webfont.woff2") format("woff2"), url("../fonts/pacifico/pacifico-webfont.woff") format("woff"), url("../fonts/pacifico/pacifico-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url("../fonts/railway/raleway-semibold-webfont.eot");
+  src: url("../fonts/railway/raleway-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/railway/raleway-semibold-webfont.woff2") format("woff2"), url("../fonts/railway/raleway-semibold-webfont.woff") format("woff"), url("../fonts/railway/raleway-semibold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 /* --------- components --------- */
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -864,10 +878,6 @@ html,
 body {
   height: 100%; }
 
-body {
-  background: url("../images/comppattern2.png");
-  font-family: "fira_sansbook"; }
-
 /*sticky footer*/
 .wraper {
   min-height: 100%;
@@ -882,3 +892,111 @@ body {
   height: 80px; }
 
 /*end of sticky footer*/
+.hide {
+  position: absolute;
+  left: -9999px; }
+
+section {
+  padding: 60px 0; }
+
+.page-header {
+  background: url("../images/bg/header.png");
+  height: 600px;
+  background-size: cover; }
+  .page-header:before {
+    content: "";
+    height: 10px;
+    background-color: #2ecc71;
+    width: 100%;
+    display: block; }
+
+.page-header .container {
+  width: 900px; }
+
+.socials__list {
+  margin: 0;
+  padding: 0; }
+
+.title {
+  padding-top: 125px; }
+
+.title__text {
+  color: #fff;
+  font-size: 3.75em; }
+  .title__text h2 {
+    font-family: "pacificoregular";
+    margin: 0;
+    padding: 0; }
+    .title__text h2 span {
+      color: #2ecc71; }
+
+.title__descr {
+  color: #fff;
+  font-size: 1.5em;
+  max-width: 460px; }
+
+.socials__item {
+  display: inline-block; }
+
+.socials__item:not(:first-child) {
+  margin-left: 20px; }
+
+.socials__link {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  text-indent: 99999px;
+  overflow: hidden;
+  display: block;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.socials__link--apple {
+  background-image: url("../images/icons/apple.png"); }
+
+.socials__link--android {
+  background-image: url("../images/icons/android.png"); }
+
+.socials__link--windows {
+  background-image: url("../images/icons/windows.png"); }
+
+/*style for change.*/
+.socials__link {
+  background-color: rgba(0, 0, 0, 0.5); }
+  .socials__link:hover {
+    background-color: #2ecc71; }
+
+.skills {
+  background-color: #fff; }
+
+.skills__content {
+  text-align: center; }
+  .skills__content:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+.icon-box--part:before {
+  background-image: url("../images/icons/theme.png"); }
+
+.icon-box--star:before {
+  background-image: url("../images/icons/star.png"); }
+
+.icon-box--earth:before {
+  background-image: url("../images/icons/earth.png"); }
+
+.skills__title {
+  font-size: 1.375em; }
+  .skills__title h2 {
+    font-family: 'ralewaysemibold'; }
+
+.skills__text {
+  color: #848484; }
+
+/*style for change.*/
+.skills__content:before {
+  background-color: #2ecc71; }
