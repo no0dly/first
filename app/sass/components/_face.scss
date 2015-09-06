@@ -3,22 +3,25 @@
 }
 
 .face__blockquote {
-	font-family: HelveticaNeue;
+	// font-family: HelveticaNeue;
 	color:  #848484;
 	font-size: 18px;
 	font-style: italic;
 	line-height: 30px;
 	text-align: center;
+
+	p {padding: 0 100px;}
 }
 
 .face__cite {
 	display: block;
-	font-family: Raleway;
+	// font-family: Raleway;
 	color:  #2e2e2e;
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 20px;
 	text-align: center;
+	font-style: normal;
 }
 
 
@@ -43,7 +46,7 @@
 	text-align: center;
 }
 .social__title {
-	font-family: Raleway;
+	// font-family: Raleway;
 	color:  #000000;
 	font-size: 24px;
 	font-weight: 600;
@@ -51,7 +54,7 @@
 }
 
 .social__text {
-	font-family: HelveticaNeue;
+	// font-family: HelveticaNeue;
 	color:  #848484;
 	font-size: 16px;
 	font-weight: 400;

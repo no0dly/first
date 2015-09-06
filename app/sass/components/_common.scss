@@ -24,6 +24,10 @@ section {
 	padding: 60px 0;
 }
 
+ul{
+	padding-left: 0;
+}
+
 .container {
 	width: 1180px;
 	margin: 0 auto;
@@ -50,7 +54,7 @@ section {
 
 .footer-nav__link {
 	display: block;
-	font-family: 'HelveticaNeue';
+	// font-family: 'HelveticaNeue';
 	color:  #848484;
 	font-size: 16px;
 	font-weight: 400;
