@@ -1,0 +1,27 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url('../images/comppattern2.png');
+	font-family: "fira_sansbook";
+}
+
+/*sticky footer*/
+.wraper {
+	min-height: 100%;
+	margin-bottom: -83px;
+}
+
+.wraper:after {
+	content: "";
+	display: block;
+}
+
+.wraper:after,
+.page-footer {
+	height: 80px;
+}
+/*end of sticky footer*/
+
