@@ -1,12 +1,10 @@
 .page-header {
-	background: url("../images/bg/header.png");
 	height: 600px;
 	background-size: cover;
 
 	&:before {
 		content: "";
 		height: 10px;
-		background-color: #2ecc71;
 		width: 100%;
 		display: block;
 	}
@@ -32,9 +30,6 @@
 		font-family: "pacificoregular";
 		margin: 0;
 		padding: 0;
-		span {
-			color: #2ecc71;
-		}
 	}
 }
 
@@ -75,13 +70,6 @@
 	background-image: url('../images/icons/windows.png');
 }
 
-
-/*style for change.*/
-
 .socials__link {
 	background-color: rgba(0,0,0,.5);
-
-	&:hover {
-		background-color: #2ecc71;
-	}
 }

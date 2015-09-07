@@ -929,13 +929,11 @@ ul {
     text-decoration: underline; }
 
 .page-header {
-  background: url("../images/bg/header.png");
   height: 600px;
   background-size: cover; }
   .page-header:before {
     content: "";
     height: 10px;
-    background-color: #2ecc71;
     width: 100%;
     display: block; }
 
@@ -956,8 +954,6 @@ ul {
     font-family: "pacificoregular";
     margin: 0;
     padding: 0; }
-    .title__text h2 span {
-      color: #2ecc71; }
 
 .title__descr {
   color: #fff;
@@ -989,11 +985,8 @@ ul {
 .socials__link--windows {
   background-image: url("../images/icons/windows.png"); }
 
-/*style for change.*/
 .socials__link {
   background-color: rgba(0, 0, 0, 0.5); }
-  .socials__link:hover {
-    background-color: #2ecc71; }
 
 .skills {
   background-color: #fff; }
@@ -1025,10 +1018,6 @@ ul {
 
 .skills__text {
   color: #848484; }
-
-/*style for change.*/
-.skills__content:before {
-  background-color: #2ecc71; }
 
 .updates {
   background-color: #e3e3e3; }
@@ -1084,7 +1073,6 @@ ul {
   position: absolute;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
-  background-color: #2ecc71;
   width: 141px;
   height: 56px; }
 
@@ -1150,8 +1138,6 @@ ul {
   width: 34px;
   height: 34px;
   background: #c5c5c5 center no-repeat; }
-  .social__link:hover {
-    background-color: #2ecc71; }
 
 .social__link_twitter {
   background-image: url("/images/icons/twitter.png"); }

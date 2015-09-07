@@ -1,0 +1,9 @@
+.page-header:before,
+.skills__content:before,
+.socials__link:hover,
+.updates__btn,
+.social__link:hover {
+  background-color: #df35a1; }
+
+.title__text span {
+  color: #df35a1; }
