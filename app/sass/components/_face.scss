@@ -1,0 +1,96 @@
+.face {
+
+}
+
+.face__blockquote {
+	// font-family: HelveticaNeue;
+	color:  #848484;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 30px;
+	text-align: center;
+
+	p {padding: 0 100px;}
+}
+
+.face__cite {
+	display: block;
+	// font-family: Raleway;
+	color:  #2e2e2e;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	font-style: normal;
+}
+
+
+.face__list {
+	list-style: none;
+	text-align: center;
+}
+
+
+.face__item {
+	display: inline-block;
+	p{
+		width: 50px;
+		height: 50px;
+		margin: 5px;
+		background-color: #ccc;
+	}
+	
+}
+
+.social {
+	text-align: center;
+}
+.social__title {
+	// font-family: Raleway;
+	color:  #000000;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.social__text {
+	// font-family: HelveticaNeue;
+	color:  #848484;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.social__list{
+	list-style: none;
+
+}
+
+.social__item {
+	display: inline-block;
+	margin-left: 8px;
+
+	&:first-child {padding-left: 0;}
+
+}
+
+.social__link {
+	display: block;
+	@include border-radius(50%);
+	width: 34px;
+	height: 34px;
+	background: #c5c5c5 center no-repeat;
+}
+
+
+
+@each $icon in ('twitter', 'facebook', 'p', 'google', 'linkedin', 'youtube') {
+	.social__link_#{$icon} {
+		background-image: url('/images/icons/#{$icon}.png');
+	}
+}
+
+.social__span {
+	position: absolute;
+	left: -9999px;
+}

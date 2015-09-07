@@ -1,8 +1,19 @@
+footer.page-footer
+	.container 
+		- var N =['Contact','Download', 'Press', 'Email', 'Support', 'Privacy Policy']
+		- var L = ["#", "#", "#","#", "#", "#"]
+		nav.footer-nav
+			ul.footer-nav__list
+				each item in [{name: N, link:L}]
+					each nam, ndx in item.name
+						li.footer-nav__item
+							a(href=item.link[ndx]).footer-nav__link= nam
+
+
 <!-- build:js js/vendor.js --> 
 //bower:js
-script(src='/bower/modernizr/modernizr.js')
 script(src='/bower/jquery/dist/jquery.js')
-script(src='/bower/jquery-placeholder/jquery.placeholder.js')
+script(src='/bower/parallax.js/parallax.min.js')
 //endbower
 <!-- endbuild -->
 

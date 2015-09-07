@@ -1,0 +1,75 @@
+.page-header {
+	height: 600px;
+	background-size: cover;
+
+	&:before {
+		content: "";
+		height: 10px;
+		width: 100%;
+		display: block;
+	}
+}
+
+.page-header .container {
+	width: 900px;
+}
+
+.socials__list {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	padding-top: 125px;
+}
+
+.title__text {
+	color: #fff;
+	font-size: 3.75em;
+	h2 {
+		font-family: "pacificoregular";
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.title__descr {
+	color: #fff;
+	font-size: 1.5em;
+	max-width: 460px;
+}
+
+.socials__item {
+	display: inline-block;
+}
+
+.socials__item:not(:first-child) {
+	margin-left: 20px;
+}
+
+.socials__link {
+	width: 53px;
+	height: 53px;
+	border-radius: 50%;
+	text-indent: 99999px;
+	overflow: hidden;
+	display: block;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.socials__link--apple {
+	background-image: url('../images/icons/apple.png');
+}
+
+.socials__link--android {
+	background-image: url('../images/icons/android.png');
+}
+
+.socials__link--windows {
+	background-image: url('../images/icons/windows.png');
+}
+
+.socials__link {
+	background-color: rgba(0,0,0,.5);
+}

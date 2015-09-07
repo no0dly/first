@@ -42,6 +42,14 @@ gulp.task('sass', function () {
 		.pipe(reload({stream: true}));
 });
 
+gulp.task('sass-themes', function () {
+	gulp.src('app/themes/*.**')
+		.pipe(sass())
+		.on('error', log)
+		.pipe(gulp.dest('app/css/'))
+		.pipe(reload({stream: true}));
+});
+
 // Подключаем ссылки на bower components
 gulp.task('wiredep', function () {
 	gulp.src('app/templates/common/*.jade')
@@ -67,6 +75,7 @@ gulp.task('watch', function () {
 	gulp.watch('app/templates/**/*.jade', ['jade']);
 	gulp.watch('bower.json', ['wiredep']);
 	gulp.watch('app/sass/**/*.scss', ['sass']);
+	gulp.watch('app/themes/**/*.scss', ['sass-themes']);
 	gulp.watch([
 		'app/js/**/*.js',
 		'app/css/**/*.css'

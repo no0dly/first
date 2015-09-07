@@ -1,33 +1,177 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
-	<link rel="stylesheet" href="css/general.css">
-	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
-	<title>homework1</title>
-	<meta name="description" content="Второе домашнее задание">
-	<meta name="keywords" content="Верстка основной страницы">
-	<meta name="author" content="Vadim D.">
-	<script src="bower/modernizr/modernizr.js"></script>
-</head>
-<body>
-	<!-- [if lt IE 8] >
-		<p class="browsehappy">Ваш браузер <strong>устарел</strong>.
-		Пожалуйста, <a href="http://browsehappy.com/">обновите</a> его.
-		Your bowser<strong>got outdated</strong>.
-		Please, <a href="http://browsehappy.com/">update</a> your browser.
-		</p>
-	<![endif]-->
-	<div class="wraper">
-    <h2>da bydet dz2</h2>
-	</div>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="bower/jquery/dist/jquery.js"><\/script>');</script>
-	<script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
-	<script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>first teamwork</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Vadim D.">
+    <link rel="shortcut icon" href="/favicon.ico" type="icon/x-icon">
+    <link rel="icon" href="/favicon.ico" type="icon/x-icon">
+    <!-- build:css css/vendor.min.css -->
+    <!-- bower:css-->
+    <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css fonts/fonts.min.css -->
+    <!-- endbuild -->
+    <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+    <link rel="stylesheet" href="css/pink.css">
+    <!-- build:js js/modernizr.min.js -->
+    <script src="/bower/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header data-parallax="scroll" data-image-src="images/bg/header.png" class="page-header parallax-window">
+        <div class="container">
+          <div class="title">
+            <div class="title__text">
+              <h2>Notify<span>.</span></h2></div>
+            <div class="title__descr">
+              <p>A great new free psd theme to showcase your new application.</p>
+            </div>
+            <div class="socials">
+              <ul class="socials__list">
+                <li class="socials__item"><a href="#" class="socials__link socials__link--apple">apple</a></li>
+                <li class="socials__item"><a href="#" class="socials__link socials__link--android">android</a></li>
+                <li class="socials__item"><a href="#" class="socials__link socials__link--windows">windows</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="skills">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="skills__content icon-box--part">
+                <div class="skills__title">
+                  <h2>Editable Theme</h2></div>
+                <div class="skills__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skills__content icon-box--star">
+                <div class="skills__title">
+                  <h2>Flat Design</h2></div>
+                <div class="skills__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="skills__content icon-box--earth">
+                <div class="skills__title">
+                  <h2>Reach Your Audience</h2></div>
+                <div class="skills__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="updates">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <form action="" class="updates__form">
+                <div class="updates__title">Get Notified Of Any Updates!</div>
+                <div class="updates__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare
+                    luctus id sollicitudin ante lobortis at.</p>
+                </div>
+                <label class="updates__label">
+                  <input type="text" placeholder="Email Address" class="updates__input">
+                  <input type="submit" value="Notify" class="updates__btn">
+                </label>
+              </form>
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <div class="updates__video">
+                <p style="background-image: url('/images/bg/header.png')"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="face">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <blockquote class="face__blockquote">
+                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us. Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.”<cite class="face__cite">Jane Hunt</cite></p>
+              </blockquote>
+              <ul class="face__list">
+                <li class="face__item">
+                  <p></p>
+                </li>
+                <li class="face__item">
+                  <p></p>
+                </li>
+                <li class="face__item">
+                  <p></p>
+                </li>
+                <li class="face__item">
+                  <p></p>
+                </li>
+                <li class="face__item">
+                  <p></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12">
+              <div class="social">
+                <div class="social__title">Say Hi & Get in Touch</div>
+                <div class="social__text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
+                </div>
+                <ul class="social__list">
+                  <li class="social__item"><a href="#" class="social__link social__link_twitter"><span class="social__span">twitter</span></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link_facebook"><span class="social__span">facebook</span></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link_p"><span class="social__span">p</span></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link_google"><span class="social__span">google</span></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link_linkedin"><span class="social__span">linkedin</span></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link_youtube"><span class="social__span">youtube</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="page-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Contact</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Download</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Press</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Email</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Support</a></li>
+            <li class="footer-nav__item"><a href="#" class="footer-nav__link">Privacy Policy</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- build:js js/vendor.js -->
+    <!--bower:js-->
+    <script src="/bower/jquery/dist/jquery.js"></script>
+    <script src="/bower/parallax.js/parallax.min.js"></script>
+    <!--endbower-->
+    <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+  </body>
+
 </html>

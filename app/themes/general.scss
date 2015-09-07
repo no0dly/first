@@ -1,0 +1,15 @@
+
+//variables for thems
+$main-color: #2ecc71;
+
+.page-header:before,
+.skills__content:before,
+.socials__link:hover,
+.updates__btn,
+.social__link:hover {
+	background-color: $main-color;
+}
+
+.title__text span {
+	color: $main-color;
+}

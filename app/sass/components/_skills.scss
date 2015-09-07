@@ -1,0 +1,45 @@
+.skills {
+	background-color: #fff;
+}
+
+.skills__content {
+	text-align: center;
+
+	&:before {
+		content: "";
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+.icon-box--part {
+	&:before {
+		background-image: url('../images/icons/theme.png');
+	}
+}
+
+.icon-box--star {
+	&:before {
+		background-image: url('../images/icons/star.png');
+	}
+}
+
+.icon-box--earth {
+	&:before {
+		background-image: url('../images/icons/earth.png');
+	}
+}
+
+.skills__title {
+	font-size: 1.375em;
+	h2 {
+		font-family: 'ralewaysemibold';
+	}
+}
+
+.skills__text {
+	color: #848484;
+}

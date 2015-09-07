@@ -1,0 +1,14 @@
+header.page-header.parallax-window(data-parallax="scroll" data-image-src="images/bg/header.png")
+	.container
+		.title
+			.title__text
+				h2 Notify
+					span .
+			.title__descr
+				p A great new free psd theme to showcase your new application.
+
+			.socials
+				ul.socials__list
+					each item in ['apple', 'android', 'windows']
+						li.socials__item
+							a(href="#" class="socials__link socials__link--" + item)= item
