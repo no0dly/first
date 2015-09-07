@@ -1,0 +1,32 @@
+section.face
+	.container
+		.row
+			.col-xs-12
+				blockquote.face__blockquote
+					p “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us.
+						| Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut.”
+						cite.face__cite Jane Hunt
+
+				ul.face__list
+					each item in ['1','2','3','4','5']
+						li.face__item
+							p
+							//- p(style="background-image: url('/images/bg/"+item +".png')")
+
+			.col-xs-12
+				.social
+					.social__title Say Hi & Get in Touch
+					.social__text 
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.
+					
+					ul.social__list
+
+						- var N =['twitter','facebook', 'p', 'google', 'linkedin', 'youtube']
+						- var L = ["#", "#", "#","#", "#", "#"]
+
+						each item in [{name: N, link:L}]
+							each nam, ndx in item.name
+								li.social__item
+									a(href=item.link[ndx] class='social__link social__link_'+nam)
+										span.social__span= nam
+
