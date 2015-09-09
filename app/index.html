@@ -12,6 +12,7 @@
     <link rel="icon" href="/favicon.ico" type="icon/x-icon">
     <!-- build:css css/vendor.min.css -->
     <!-- bower:css-->
+    <link rel="stylesheet" href="/bower/animate.css/animate.css">
     <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
     <!-- endbower -->
     <!-- endbuild -->
@@ -24,20 +25,22 @@
     <!-- build:js js/modernizr.min.js -->
     <script src="/bower/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    <link rel="stylesheet" href="/css/main.css">
   </head>
 
   <body>
     <div class="wrapper">
+      <div class="loader">
+        <div class="loader__inner"></div>
+      </div>
       <header data-parallax="scroll" data-image-src="images/bg/header.png" class="page-header parallax-window">
         <div class="container">
           <div class="title">
-            <div class="title__text">
+            <div class="title__text animated shake">
               <h2>Notify<span>.</span></h2></div>
-            <div class="title__descr">
+            <div class="title__descr animated bounceInLeft">
               <p>A great new free psd theme to showcase your new application.</p>
             </div>
-            <div class="socials">
+            <div class="socials animated fadeInUp">
               <ul class="socials__list">
                 <li class="socials__item"><a href="#" class="socials__link socials__link--apple">apple</a></li>
                 <li class="socials__item"><a href="#" class="socials__link socials__link--android">android</a></li>

@@ -20,6 +20,35 @@ body {
 }
 /*end of sticky footer*/
 
+/*loader*/
+
+.loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.loader__inner {
+	background-image: url("../images/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+/*end of loader*/
+
 section {
 	padding: 60px 0;
 }
@@ -28,9 +57,9 @@ ul{
 	padding-left: 0;
 }
 
-.container {
-	width: 1180px;
-	margin: 0 auto;
+.wrapper {
+	overflow: hidden;
+	min-width: 600px;
 }
 
 .page-footer {

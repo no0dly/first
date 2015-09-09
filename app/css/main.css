@@ -892,15 +892,42 @@ body {
   height: 80px; }
 
 /*end of sticky footer*/
+/*loader*/
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.loader__inner {
+  background-image: url("../images/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute; }
+
+/*end of loader*/
 section {
   padding: 60px 0; }
 
 ul {
   padding-left: 0; }
 
-.container {
-  width: 1180px;
-  margin: 0 auto; }
+.wrapper {
+  overflow: hidden;
+  min-width: 600px; }
 
 .page-footer {
   background-color: #e3e3e3;
@@ -987,6 +1014,16 @@ ul {
 
 .socials__link {
   background-color: rgba(0, 0, 0, 0.5); }
+
+/*animation*/
+.title__text {
+  animation-delay: 1s; }
+
+.title__descr {
+  animation-delay: 1.5s; }
+
+.socials {
+  animation-delay: 2s; }
 
 .skills {
   background-color: #fff; }

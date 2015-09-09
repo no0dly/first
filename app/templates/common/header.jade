@@ -1,13 +1,15 @@
+.loader
+	.loader__inner
 header.page-header.parallax-window(data-parallax="scroll" data-image-src="images/bg/header.png")
 	.container
 		.title
-			.title__text
+			.title__text.animated.shake
 				h2 Notify
 					span .
-			.title__descr
+			.title__descr.animated.bounceInLeft
 				p A great new free psd theme to showcase your new application.
 
-			.socials
+			.socials.animated.fadeInUp
 				ul.socials__list
 					each item in ['apple', 'android', 'windows']
 						li.socials__item
